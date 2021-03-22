@@ -15,4 +15,19 @@ entries:
     urls:
     - https://github.com/ayberk/cloud-provider-aws/releases/download/helm-chart-aws-cloud-controller-manager-0.0.2/aws-cloud-controller-manager-0.0.2.tgz
     version: 0.0.2
+  cloud-provider-aws:
+  - apiVersion: v1
+    appVersion: v1.20.0-alpha.0
+    created: "2021-03-22T18:38:39.443979896Z"
+    description: This will install Cloud Controller Manager for AWS Cloud Provider
+    digest: d943d4ffb503f8bd34ff1dfc40a053c78fc038fba6b9cd1e2a50b0feffd07d85
+    maintainers:
+    - email: jeswinjkn@gmail.com
+      name: Jeswin K Ninan
+    - email: yayberk@amazon.com
+      name: Ayberk Yilmaz
+    name: cloud-provider-aws
+    urls:
+    - https://github.com/ayberk/cloud-provider-aws/releases/download/helm-chart-cloud-provider-aws-0.0.1/cloud-provider-aws-0.0.1.tgz
+    version: 0.0.1
 generated: "2021-03-22T18:30:57.758906442Z"
