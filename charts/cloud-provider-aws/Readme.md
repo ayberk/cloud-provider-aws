@@ -39,7 +39,7 @@ _See [helm uninstall](https://helm.sh/docs/helm/helm_uninstall/) for command doc
 
 ```console
 # Helm 3 or 2
-$ helm upgrade [RELEASE_NAME] cloud-provider-aws/charts/cloud-provider-aws  [flags]
+$ helm upgrade [RELEASE_NAME] cloud-provider-aws/charts/aws-cloud-controller-manager  [flags]
 ```
 
 _See [helm upgrade](https://helm.sh/docs/helm/helm_upgrade/) for command documentation._
