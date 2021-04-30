@@ -1,7 +1,7 @@
 name: Release Binaries
 on:
   release:
-    types: [released]
+    types: [published, created]
 
 jobs:
   releases-matrix:
