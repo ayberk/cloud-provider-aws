@@ -21,4 +21,3 @@ jobs:
         goversion: "https://dl.google.com/go/go1.13.1.linux-amd64.tar.gz"
         project_path: "./cmd/aws-cloud-controller-manager"
         binary_name: "aws-cloud-controller-manager"
-        ldflags: "-w -s -X 'main.version=$(VERSION)'"
