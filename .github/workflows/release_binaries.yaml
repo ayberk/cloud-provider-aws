@@ -2,6 +2,7 @@ name: Release Binaries
 on:
   release:
     types: [released]
+    # foo
 
 jobs:
   releases-matrix:
